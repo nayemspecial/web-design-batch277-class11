@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/nivo-slider.css">
+    <link rel="stylesheet" href="themes/bar/bar.css">
+    <link rel="stylesheet" href="themes/dark/dark.css">
+    <link rel="stylesheet" href="themes/default/default.css">
+    <link rel="stylesheet" href="themes/light/light.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Class Eight</title>
+</head>
+<body>
+
+
+    <!--=============================
+        Header are start here
+    ==============================-->
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-right">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!--=============================
+        Slider are start here
+    ==============================-->
+    <div class="slider-wrapper theme-bar">
+        <div id="slider" class="nivoSlider">
+            <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+            <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+            <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+            <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+        </div>
+        <div id="htmlcaption" class="nivo-html-caption">
+            <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+        </div>
+    </div>
+
+
+    <section class="slider-section">
+        <div class="slider-left">
+            <h2>Slider Title</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis commodi totam atque nisi delectus assumenda voluptate autem at maxime deleniti?</p>
+        </div>
+        <div class="slider-right">
+            <img src="assets/img/slider-img.jpg" alt="slider image">
+        </div>
+    </section>
+
+    <!--=============================
+        Service are start here
+    ==============================-->
+
+    <section class="service-area">
+        <h1 class="section-title">Our Services</h1>
+        <p class="section-description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam repudiandae voluptate accusantium aperiam
+        </p>
+
+        <div class="all-services">
+            <div class="single-service">
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+            </div>
+            <div class="single-service">
+                <i class="fas fa-desktop"></i>
+                <h2>App Development</h2>
+            </div>
+            <div class="single-service">
+                <i class="fas fa-desktop"></i>
+                <h2>Web Development</h2>
+            </div>
+            <div class="single-service">
+                <i class="fas fa-desktop"></i>
+                <h2>Maintenance and Support</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <!--=============================
+        Footer are start here
+    ==============================-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, nisi?</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Pages</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Courses</h4>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">App Development</a></li>
+                    <li><a href="#">Web Development</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Address: 1/1 College Road</p>
+                <p>Phone: 01900000000</p>
+                <p>Email: admin@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <section class="copy-right">
+        <p>All Right Reserved </p>
+    </section>
+
+    <script src="scripts/jquery-1.9.0.min.js"></script>
+    <script src="scripts/jquery.nivo.slider.js"></script>
+    <script>
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
+
+</body>
+</html>
